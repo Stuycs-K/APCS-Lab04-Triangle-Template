@@ -7,14 +7,17 @@ public class Point{
   */
   public String toString(){
     //your code here
+    return "";
   }
   
   public static double distance(Point a, Point b){
    //your code here 
+    return -1.0;
   }
   
   public double distanceTo(Point other){
    //your code here 
+    return -1.0;
   }
 
   
@@ -30,6 +33,7 @@ public class Point{
   */
   public boolean equals(Point other){
     //You write this later
+    return true;
   }
   
   public Point(double X, double Y){
