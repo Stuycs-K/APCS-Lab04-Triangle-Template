@@ -4,7 +4,7 @@ public class Driver{
     Point r = new Point(100,100);
     Point p = new Point(3.0,4.0);
     Point q = new Point(0.0,0.0);
-    System.out.println(r.distance(p,q)+" should be 4");
+    System.out.println(r.distance(p,q)+" should be 5");
     
     p = new Point(3.0,4.0);
     q = new Point(4.0,5.0);
