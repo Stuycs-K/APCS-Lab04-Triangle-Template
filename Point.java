@@ -9,7 +9,7 @@ public class Point{
     //your code here
   }
   
-  public static double distanceTo(Point a, Point b){
+  public static double distance(Point a, Point b){
    //your code here 
   }
   
