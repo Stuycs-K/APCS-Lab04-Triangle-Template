@@ -1,6 +1,6 @@
 public class Point{
   private double x,y;
-  
+
   /*Return a string in the format: (x, y)
   *where x and y are the values from the Point.
   *e.g.  "(0.0, 1.23)"  or  "(-1.02, 21.45)"
@@ -22,6 +22,9 @@ public class Point{
 
   
   
+  //#####################################
+  //STOP! DO NOT DO THIS PARTS UNTIL YOU ARE TOLD TO DO SO
+  //####################################
   public static boolean closeEnough(double a, double b){
     //How can you determine if two values are close enough to eachother?
     //you write this later
@@ -35,7 +38,10 @@ public class Point{
     //You write this later
     return true;
   }
-  
+
+  //#####################################
+  //DO NOT EDIT BELOW THIS LINE:
+  //#####################################
   public Point(double X, double Y){
     x=X;
     y=Y;
