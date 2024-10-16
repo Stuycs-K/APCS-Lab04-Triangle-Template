@@ -19,11 +19,11 @@ This method takes an int that is: 0,1,2 and returns the corresponding vertex( v0
 
 ### String toString()
 
-This will return a string in the format { v0, v1, v2} where you replace v0/v1/v2 with the toString of the Point object
+This will return a string in the format `{v0, v1, v2}` where you replace v0/v1/v2 with the toString of the Point object
 
 e.g.
 
-"{(2.0, 4.53), (0.0, 7.77), (1.52, -9.53)}"
+`"{(2.0, 4.53), (0.0, 7.77), (1.52, -9.53)}"`
 
 Notice you can use your point toString here
 
