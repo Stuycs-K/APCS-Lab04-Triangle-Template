@@ -8,10 +8,10 @@ The constructor that takes six doubles requires that you create Points from the 
 
 ### Triangle( Point v0,Point v1,Point v2)
 
-The constructor that takes three Points requires that you make new instances of those Points to initialize the triangle.
-Accessors
+The constructor that takes three Points. You are required to make new instances of those Points to initialize the triangle.
 
-## Methods
+
+## Accessor Methods
 
 ### Point getVertex(int v)
 
@@ -19,7 +19,7 @@ This method takes an int that is: 0,1,2 and returns the corresponding vertex( v0
 
 ### String toString()
 
-This will return a string in the format `{v0, v1, v2}` where you replace v0/v1/v2 with the toString of the Point object
+This will return a string in the format `"{v0, v1, v2}"` where you replace v0/v1/v2 with the toString of the Point object
 
 e.g.
 
@@ -29,6 +29,8 @@ Notice you can use your point toString here
 
 ### double getPerimeter()
 Return a double that is the perimeter of the Triangle
+
+## Mutator Methods
 
 ### void setVertex(int v,Point p)
 
